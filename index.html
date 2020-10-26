@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Arnulfo Sarmiento -->
+  <head>
+    <meta charset="UTF.8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnulf Duarte 01</title>
+    <script src="main.js" type="test/javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+    <form>
+        <div id='app'>
+        <div class="container">
+        <div class="form-group">   
+          <div>
+          <label>ingrese la cantidad de preguntas realizadas</label>
+          <input type="number" v-model='cantP' class="form-control">
+          </div>
+         <div>
+          <label>ingrese la cantidad de respuestas correctas</label>
+          <input type="number" v-model='cantR' class="form-control">
+         </div>
+         </div>
+        <button type="button" v-on:click="porcentajes" class="btn btn-danger">Continuar</button>
+        <h3 v-text="rta"></h3>
+      </div>
+      </div>
+      </form>
+
+    <script src="JS/vue.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+</html>
