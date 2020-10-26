@@ -1,3 +1,3 @@
 # proyect
 ejercicio de JavaScript 
-Realizado por Andres Arnulfo.
+Realizado por Andres Arnulfo
